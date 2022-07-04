@@ -1,5 +1,5 @@
 import React from 'react'
-const skillsRequired =  ['SASS','TypeScript','React'];
+
 const Project = ({projectItem}) => {
     const {name, description, skills, github, linkedIn} = projectItem;
     console.log(projectItem.skills);
@@ -8,18 +8,14 @@ const Project = ({projectItem}) => {
         <div className="card">
             <h2>{name}</h2>
             <p>{description}</p>
-            <div>
-            <span className="skills">
-                {skillsRequired.map(skill=>(
-                  skill
+            <div className="skillContainer">
+                {skills.map(skill=>(
+                  <span className="skills">{skill}</span>
                 ))}
-            </span>
             </div>
-            <span>
+            <span className="projectLink">
                 <a href={github}>Github</a>
-            </span>
-            
-            
+            </span>            
             <span>
                 <a href={linkedIn}>LinkedIn</a>
             </span>

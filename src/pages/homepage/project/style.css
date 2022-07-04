@@ -10,7 +10,21 @@
 
 .card {
     padding: 13px;
-    width: 200px;
+    width: 300px;
     box-shadow: 0 0 30px #ccc;
+    text-align: center;
+    border-radius: 10px;
 }
 
+.skills{
+    margin: 3px;
+    font-weight: 700;
+}
+
+.skillContainer{
+    margin-bottom: 10px;
+}
+
+.projectLink{
+    margin: 0 10px;
+}
