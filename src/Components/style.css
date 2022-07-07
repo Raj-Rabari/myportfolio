@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 8em;
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#h1{
+    margin: 1em;
+}
+.menuItems {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    margin-right: 1.5em;
+    display: flex;
+    list-style-type: none;
+}
+
+.navList-item{
+    margin-left: 1.5em;
+    text-decoration: none;
+}
+
+.projectContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    gap: 10px 20px;
+    margin: 0 auto;
+}
+
+.card {
+    padding: 13px;
+    width: 300px;
+    box-shadow: 0 0 30px #ccc;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skills{
+    font-weight: 700;
+}
+
+.skillContainer{
+    margin: 4em;
+}
+
+.projectLink{
+    margin: 0 10px;
+}
+
+.mainHomePage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:2em;
+}
+
+.mainHomePage h1{
+    font-size: 4rem;
+}
+
+.name {
+    color: #2978b5;
+}
+.desc{
+    width: 600px;
+}
+
+.skills__list {
+    max-width: 450px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills__list-item {
+    margin: 0.5em;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contactContainer{
+    margin:2em;
+  }
+
+  #profile{
+    width:150px;
+    height: 150px;
+  }
