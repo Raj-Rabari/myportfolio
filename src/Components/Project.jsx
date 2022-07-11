@@ -1,10 +1,10 @@
 import React from 'react'
 import './style.css';
-import {Github,BoxArrowUpRight} from "react-bootstrap-icons";
+import {BoxArrowUpRight} from "react-bootstrap-icons";
 
 
 const Project = ({projectItem}) => {
-    const {name, description, skills, github, linkedIn} = projectItem;
+    const {name, description, skills, github} = projectItem;
     console.log(projectItem.skills);
     
     return (
@@ -18,8 +18,7 @@ const Project = ({projectItem}) => {
                 ))}
             </div>
             <span className="projectLink">
-            <a href={github} target="_blank" rel='noreferrer' className='mx-1'><Github/></a>
-            <a href={linkedIn} className='mx-1' target="_blank" rel="noreferrer"><BoxArrowUpRight/></a>
+            <a href={github} target="_blank" rel='noreferrer' className='mx-1'> Go to Project <BoxArrowUpRight/></a>
             </span>            
 
         </div>

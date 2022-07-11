@@ -3,32 +3,16 @@ import Project from './Project';
 import './style.css' 
 
 const projectData = [{
-    name:"Project 1",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://github.com/"
+    name:"Guess the Numbers",
+    description:"This project is basically a game in which user can click the at most three buttons to make the total count greater than 10. It user Successfull to achieve the total the he will win, Othervise loose.",
+    skills:['JavaScript','React JS','Material UI'],
+    github:"https://raj-rabari.github.io/guess-numbers/",
 },
 {
     name:"Project 2",
     description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://github.com/"
-},
-{
-    name:"Project 3",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills: ['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://github.com/"
-},
-{
-    name:"Project 4",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://github.com/"
+    skills:['JavaScript','React JS','HTML','CSS'],
+    github:"https://nue15l.csb.app/",
 }
 ];
 

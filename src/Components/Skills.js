@@ -7,15 +7,14 @@ export default function Skills(){
         <li className="skills__list-item btn btn-outline-secondary">HTML</li>
         <li className="skills__list-item btn btn-outline-secondary">CSS</li>
         <li className="skills__list-item btn btn-outline-secondary">JavaScript</li>
-        <li className="skills__list-item btn btn-outline-secondary">TypeScript</li>
+        <li className="skills__list-item btn btn-outline-secondary">Java</li>
         <li className="skills__list-item btn btn-outline-secondary">React</li>
         <li className="skills__list-item btn btn-outline-secondary">Redux</li>
         <li className="skills__list-item btn btn-outline-secondary">SASS</li>
         <li className="skills__list-item btn btn-outline-secondary">Material UI</li>
-        <li className="skills__list-item btn btn-outline-secondary">Git</li>
-        <li className="skills__list-item btn btn-outline-secondary">CI/CD</li>
-        <li className="skills__list-item btn btn-outline-secondary">Jest</li>
-        <li className="skills__list-item btn btn-outline-secondary">Enzyme</li>
+        <li className="skills__list-item btn btn-outline-secondary">Git & GitHub</li>
+        <li className="skills__list-item btn btn-outline-secondary">MongoDB</li>
+        <li className="skills__list-item btn btn-outline-secondary">MySQL</li>
         </ul>
         </section>
         </div>
