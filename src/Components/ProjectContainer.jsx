@@ -6,7 +6,7 @@ const projectData = [
   {
     name: "Ecommerce API",
     description:
-      "Rest API for ecommerce website using Node JS , Express JS , MongoDB.",
+      "Rest API for ecommerce website using Node JS , Express JS , MongoDB and tested using Postman.",
     skills: ["Node JS", "Express JS", "MongoDB"],
     github: "https://github.com/Raj-Rabari/ecommerceAPI",
   },
@@ -18,7 +18,7 @@ const projectData = [
     github: "https://github.com/Raj-Rabari/shortly",
   },
   {
-    name: "Real Time Group Discussion Platform",
+    name: "Let's Discuss",
     description:
       "It is a real time group discussion platform end to end encrypted by AES algorithm.",
     skills: ["HTML","CSS","JavaScript","Node JS","Socket.io"],
