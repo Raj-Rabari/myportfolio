@@ -4,18 +4,25 @@ import "./style.css";
 
 const projectData = [
   {
-    name: "Guess the Numbers",
+    name: "Ecommerce API",
     description:
-      "This project is basically a game in which user can click the at most three buttons to make the total count greater than 10. It user Successfull to achieve the total the he will win, Othervise loose.",
-    skills: ["JavaScript", "React JS", "Material UI"],
-    github: "https://raj-rabari.github.io/guess-numbers/",
+      "Rest API for ecommerce website using Node JS , Express JS , MongoDB.",
+    skills: ["Node JS", "Express JS", "MongoDB"],
+    github: "https://github.com/Raj-Rabari/ecommerceAPI",
   },
   {
-    name: "GitHub User API",
+    name: "Shortly",
     description:
-      "This project is based on API handling. In this project I have used the GitHub user API. User can search the github user and get the details of that user like Profile photo,follower,followee,no of github repository etc.",
-    skills: ["JavaScript", "React JS", "HTML", "CSS", "axios"],
-    github: "https://nue15l.csb.app/",
+      "Shortly is a url shortner website on which you can able to shortened your URL and manage your links",
+    skills: ["React JS","Node JS","Express JS","MongoDB"],
+    github: "https://github.com/Raj-Rabari/shortly",
+  },
+  {
+    name: "Real Time Group Discussion Platform",
+    description:
+      "It is a real time group discussion platform end to end encrypted by AES algorithm.",
+    skills: ["HTML","CSS","JavaScript","Node JS","Socket.io"],
+    github: "https://github.com/Raj-Rabari/shortly",
   },
 ];
 
